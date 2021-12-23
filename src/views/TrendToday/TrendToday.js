@@ -1,7 +1,7 @@
 import styles from './TrendToday.module.css';
 import { useState, useEffect } from "react";
 import { fetchTrendMovies } from '../../services/photo-api';
-import TrendTodayCard from '../TrendTodayCard/TrendTodayCard';
+import TrendTodayCard from '../../components/TrendTodayCard/TrendTodayCard';
 
 
 export default function TrendToday() {

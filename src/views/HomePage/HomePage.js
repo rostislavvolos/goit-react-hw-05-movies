@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { fetchJustMovies } from '../../services/photo-api';
-import MovieCard from '../MovieCard/MovieCard';
+import MovieCard from '../../components/MovieCard/MovieCard';
 import styles from './HomePage.module.css';
 
 

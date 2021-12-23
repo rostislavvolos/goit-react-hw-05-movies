@@ -18,6 +18,7 @@ const TrendTodayCard = ({ movies }) => {
             <img
               className={styles.image}
               src={IMAGE_URL + item.poster_path}
+              alt= "sht"
             />
             <p className={styles.subtitle}>{item.title || item.name}</p>
           </Link>

@@ -3,6 +3,7 @@
     flex-wrap: wrap;
     list-style: none;
     /* width: 100px; */
+    justify-content: center;
   }
 
   .image {
@@ -18,4 +19,5 @@
   
   .name {
     text-align: center;
+    color: #fff;
   }

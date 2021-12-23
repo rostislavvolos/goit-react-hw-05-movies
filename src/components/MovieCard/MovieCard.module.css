@@ -26,6 +26,7 @@
   font-size: 20px;
   margin-top: 13px;
   font-family: 'Ubuntu';
+  color: #fff;
 }
 
 .image {
@@ -33,6 +34,7 @@
 width: 251px;
 height: auto;
 margin-top: 30px ;
+border: 2px solid #fff;
 /* border: 5px solid black; */
 }
 

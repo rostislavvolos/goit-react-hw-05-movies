@@ -8,15 +8,37 @@
     justify-content: center;
     text-decoration: none;
     font-weight: 700;
-    line-height: 1.75;
-    color: black;
+    /* line-height: 1.75; */
+    margin-top: 50px;
+    color: #fff;
+    margin-bottom: 30px;
+    /* background-color: red; */
     font-size: 50px;
+    font-family: "Ubuntu";
   }
 
   /* .linkinpark:not(:last-child) {
     margin-l: 30px;
   } */
+
+
+  .linkinpark:not(:last-child) {
+    margin-right: 200px;
+  }
   
+
+  .Cast {
+    background-color: red;
+    padding: 11px 66px;
+    border-radius: 82px;
+  }
+
+  .Reviews {
+    background-color: red;
+    padding: 11px 30px;
+    border-radius: 4%;
+    border-radius: 82px;
+  }
   .image {
     margin-top: 10px;
     margin-left: 20px;
@@ -25,14 +47,19 @@
     height: auto;
   }
   .activeClass {
-    color: #2196f3;
+    color: #fff;
+  }
+
+  .castDiv {
+    display: flex;
+    justify-content: center;
   }
 
   .score {
-    background-color: #2196f3;
+    background-color: red;
     border-radius: 40%;
     margin-left: 10px;
-    color: #000;
+    color: #fff;
   }
   /* .buttonDiv {
     position: fixed;
@@ -44,6 +71,7 @@
   
   .title {
     font-size: 30px;
+   color: #fff;
     display: flex;
     justify-content: center;
   }
@@ -51,6 +79,7 @@
   .error {
       font-size: 40px;
       font-weight: 700;
+      color: #fff;
   }
   
   .rating {
@@ -59,14 +88,15 @@
     padding: 15px;
     align-items: baseline;
     justify-content: center;
-    color: rgb(32, 62, 196);
+    /* color: rgb(32, 62, 196); */
+    color: #fff;
     font-size: 20px;
     font-weight: 600;
   }
   
   .subtitle {
     font-size: 20px;
-    color: rgb(0, 10, 56);
+    color: red;
     max-width: 600px;
     margin: 0 auto;
     /* font-family: 'Ubuntu', sans-serif; */
@@ -77,6 +107,7 @@
     padding: 15px;
     font-weight: 400;
     margin-left: 20px;
+    color: #fff;
   }
   
   .genres {
@@ -85,7 +116,7 @@
     padding: 5px 20px;
     font-weight: 400;
     list-style: none;
-    color: rgb(32, 62, 196);
+    color: #fff;
   }
   
   .link {
@@ -99,12 +130,14 @@
   }
   
   .activeLink {
-    color: #2196f3;
+    color: gray;
   }
   .buttonBg {
-    background-color: #2196f3;
+    background-color: red;
     /* Green */
-
+    margin-left: 50px;
+    margin-top: 50px;
+    border-radius: 60px;
     border: none;
     color: white;
     padding: 15px 32px;

@@ -27,7 +27,7 @@ export default function Reviews({ id }) {
           })}
         </ul>
       ) : (
-        <p>'We don`t have any reviews for this movie.'</p>
+        <p className={styles.error}>We don`t have any reviews for this movie :(</p>
       )}
     </div>
   );

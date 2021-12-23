@@ -78,9 +78,10 @@ export default function MovieDetails () {
                   </span>
                 </p>
               </div>
-
-            <NavLink to={`/movies/${movie.id}/cast`} className={styles.linkinpark} activeClassName={styles.activeClass}>Cast</NavLink>
-            <NavLink to={`/movies/${movie.id}/reviews`} className={styles.linkinpark} activeClassName={styles.activeClass}>Reviews</NavLink>
+              <div className={styles.castDiv}>
+            <NavLink to={`/movies/${movie.id}/cast`} className={`${styles.linkinpark} ${styles.Cast}`} activeClassName={styles.activeClass}>Cast</NavLink>
+            <NavLink to={`/movies/${movie.id}/reviews`} className={`${styles.linkinpark} ${styles.Reviews}`} activeClassName={styles.activeClass}>Reviews</NavLink>
+            </div>
 
             <Route path='/movies/:moveId/cast'>
             <MovieCastView id={movie.id} />

@@ -8,13 +8,17 @@ body {
     text-decoration: none;
     padding: 12px;
     font-weight: 500;
-    color: #000;
+    color: #fff;
     font-size: 12px;
     display: block;
   position: relative;
   padding: 0.2em 0;
   font-family: 'Ubuntu';
   /* transition: opacity 300ms, transform 300ms; */
+}
+
+.linknav:not(:last-child) {
+    margin-right: 10px;
 }
 
 
@@ -26,7 +30,7 @@ body {
         text-decoration: none;
         padding: 12px;
         font-weight: 500;
-        color: #000;
+        color: #fff;
         font-size: 18px;
     }
 }
@@ -47,7 +51,9 @@ body {
 .activeLink {
     font-family: 'Ubuntu';
     /* transition: opacity 300ms, transform 300ms; */
-    color: #ffffff;
+    color: #fff;
+    /* background-color: grey; */
+    /* border-radius: 70px; */
     position: relative;
     /* background-color: #fff; */
     /* border-bottom: 4px solid #fff; */
@@ -78,5 +84,5 @@ body {
     padding-top: 1px;
     padding-bottom: 0px;
     color: #fff;
-    background-color: #3f51b5;
+    /* background-color: #3f51b5; */
   }
