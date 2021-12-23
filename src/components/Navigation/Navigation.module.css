@@ -1,0 +1,82 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.linknav  {
+    display: inline-block;
+    text-decoration: none;
+    padding: 12px;
+    font-weight: 500;
+    color: #000;
+    font-size: 12px;
+    display: block;
+  position: relative;
+  padding: 0.2em 0;
+  font-family: 'Ubuntu';
+  /* transition: opacity 300ms, transform 300ms; */
+}
+
+
+
+@media screen and (min-width: 600px) {
+    .linknav  {
+        /* transition: opacity 300ms, transform 300ms; */
+        display: inline-block;
+        text-decoration: none;
+        padding: 12px;
+        font-weight: 500;
+        color: #000;
+        font-size: 18px;
+    }
+}
+
+.linknav::after {
+    /* content: '';
+    position: absolute;
+    background-color: #ffffff;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -2px;
+    transition: 0.6s; */
+    content: '';
+  
+}
+
+.activeLink {
+    font-family: 'Ubuntu';
+    /* transition: opacity 300ms, transform 300ms; */
+    color: #ffffff;
+    position: relative;
+    /* background-color: #fff; */
+    /* border-bottom: 4px solid #fff; */
+}
+.activeLink:after {
+    /* width: 100%; */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.1em;
+  background-color: #fff;
+  opacity: 1;
+  
+}
+
+.Navigation {
+    top: 0;
+    left: 0;
+    min-height: 50px;
+    position: sticky;
+    z-index: 1100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 24px;
+    padding-left: 24px;
+    padding-top: 1px;
+    padding-bottom: 0px;
+    color: #fff;
+    background-color: #3f51b5;
+  }

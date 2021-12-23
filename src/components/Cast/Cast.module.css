@@ -1,0 +1,21 @@
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    /* width: 100px; */
+  }
+
+  .image {
+      width: 241px;
+      height: auto;
+  }
+  
+  .item {
+    margin: 5px;
+    width: 241px;
+      height: auto;
+  }
+  
+  .name {
+    text-align: center;
+  }

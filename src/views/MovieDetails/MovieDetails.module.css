@@ -1,0 +1,118 @@
+.container {
+    display: flex;
+  }
+
+  .linkinpark {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 1.75;
+    color: black;
+    font-size: 50px;
+  }
+
+  /* .linkinpark:not(:last-child) {
+    margin-l: 30px;
+  } */
+  
+  .image {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 30px;
+    width: 300px;
+    height: auto;
+  }
+  .activeClass {
+    color: #2196f3;
+  }
+
+  .score {
+    background-color: #2196f3;
+    border-radius: 40%;
+    margin-left: 10px;
+    color: #000;
+  }
+  /* .buttonDiv {
+    position: fixed;
+  } */
+  
+  .box {
+    text-align: start;
+  }
+  
+  .title {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .error {
+      font-size: 40px;
+      font-weight: 700;
+  }
+  
+  .rating {
+    margin: 0;
+    display: flex;
+    padding: 15px;
+    align-items: baseline;
+    justify-content: center;
+    color: rgb(32, 62, 196);
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .subtitle {
+    font-size: 20px;
+    color: rgb(0, 10, 56);
+    max-width: 600px;
+    margin: 0 auto;
+    /* font-family: 'Ubuntu', sans-serif; */
+  }
+  
+  .descr {
+    margin: 0;
+    padding: 15px;
+    font-weight: 400;
+    margin-left: 20px;
+  }
+  
+  .genres {
+    margin: 0;
+    display: inline-block;
+    padding: 5px 20px;
+    font-weight: 400;
+    list-style: none;
+    color: rgb(32, 62, 196);
+  }
+  
+  .link {
+    display: inline-block;
+    text-decoration: none;
+    padding: 12px;
+    font-weight: 500;
+    color: #2a363b;
+    font-size: 22px;
+    font-weight: 700;
+  }
+  
+  .activeLink {
+    color: #2196f3;
+  }
+  .buttonBg {
+    background-color: #2196f3;
+    /* Green */
+
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    cursor: pointer;
+    /* position: absolute; */
+    left: 0px;
+  }
